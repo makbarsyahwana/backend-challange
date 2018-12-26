@@ -12,8 +12,8 @@ describe('Response empty array', function() {
       chai.request(app)
       .get('/people-like-you?age=1000')
       .end(function(err, res) {
-        expect(res.status).to.equal(200)
-        //expect(res.body).to.have.length(0)
+        //expect(res.status).to.equal(200)
+        expect(res.body).to.have.length(0)
         done()
       })
     })

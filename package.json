@@ -4,12 +4,8 @@
   "description": "With a data in this repo, build an API that sends 10 potential investor similar with a person described in the query parameters.",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "start": "babel-node index.js",
     "test": "mocha --require babel-register --exit"
-=======
-    "start": "npm run build && babel-node index.js"
->>>>>>> 27963b43fdc829e99275d72595eb86e4579a7e10
   },
   "keywords": [],
   "author": "",
