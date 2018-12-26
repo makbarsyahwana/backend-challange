@@ -65,6 +65,12 @@ app.get('/', (req, res) => {
   res.send("Hello World")
 })
 
+<<<<<<< HEAD
 app.listen(process.env.PORT, () => console.log("app is running"))
 
 module.exports = app
+=======
+app.listen(process.env.PORT, () => { console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env); })
+
+
+>>>>>>> 27963b43fdc829e99275d72595eb86e4579a7e10
