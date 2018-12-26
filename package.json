@@ -1,16 +1,19 @@
 {
-  "name": "bambudeveloper-backend-challange-v2-5aebbd5bfeef",
+  "name": "backend-challange",
   "version": "1.0.0",
   "description": "With a data in this repo, build an API that sends 10 potential investor similar with a person described in the query parameters.",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js"
+    "start": "babel-node index.js",
+    "test": "mocha --require babel-register --exit"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
     "csvtojson": "^2.0.8",
     "express": "^4.16.4",
     "mathjs": "^5.4.0",
@@ -20,6 +23,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
-    "babel-register": "^6.26.0"
+    "babel-register": "^6.26.0",
+    "mocha": "^5.2.0"
   }
 }
