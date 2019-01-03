@@ -12,7 +12,7 @@ describe('Response empty array', function() {
       chai.request(app)
       .get('/people-like-you?age=1000')
       .end(function(err, res) {
-        //expect(res.status).to.equal(200)
+        expect(res.status).to.equal(200)
         expect(res.body).to.have.length(0)
         done()
       })
@@ -26,7 +26,7 @@ describe('Response as an array', function() {
       chai.request(app)
       .get('/people-like-you?age=23&latitude=40.71667&longitude=19.56667&monthlyIncome=5500&experienced=false')
       .end(function(err, res) {
-        //expect(res.status).to.equal(200)
+        expect(res.status).to.equal(200)
         expect(res.body).to.have.length.above(0)
         done()
       })

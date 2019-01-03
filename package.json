@@ -1,7 +1,7 @@
 {
   "name": "backend-challange",
   "version": "1.0.0",
-  "description": "With a data in this repo, build an API that sends 10 potential investor similar with a person described in the query parameters.",
+  "description": "This is for backend coding challange for bambu robo adviser",
   "main": "index.js",
   "scripts": {
     "start": "babel-node index.js",
